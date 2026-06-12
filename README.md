@@ -32,6 +32,30 @@ The project utilized a labeled image dataset containing over **27,000 microscopi
 
 ---
 
+## Project Architecture
+
+```text
+Microscopic Blood Smear Images
+              ↓
+      Data Preprocessing
+              ↓
+ Image Normalization & Cleaning
+              ↓
+ Training / Validation Split
+              ↓
+ Transfer Learning (VGG16)
+              ↓
+ Model Training & Fine-Tuning
+              ↓
+ Model Evaluation
+              ↓
+ Accuracy Comparison
+              ↓
+ Final Recommendations
+```
+
+---
+
 ## Methods
 
 This project included:
@@ -48,7 +72,7 @@ This project included:
 
 ## Technologies
 
-**Programming & Libraries**
+### Programming & Libraries
 
 - Python
 - TensorFlow
@@ -57,12 +81,12 @@ This project included:
 - NumPy
 - Pandas
 
-**Development Environment**
+### Development Environment
 
 - Google Colab
 - Jupyter Notebook
 
-**Machine Learning Techniques**
+### Machine Learning Techniques
 
 - Convolutional Neural Networks (CNNs)
 - Transfer Learning
@@ -78,15 +102,15 @@ This project included:
 |--------|-------------|
 | `MIT_Malaria_Detection_Capstone.ipynb` | Complete notebook containing data preparation, model development, and evaluation |
 | `MIT_Malaria_Capstone_Presentation.pdf` | Final MIT Professional Education capstone presentation |
-| `README.md` | Project overview and methodology |
+| `README.md` | Project overview, methodology, and results |
 
 ---
 
 ## Business Impact
 
-Early and accurate malaria diagnosis remains a significant global health challenge. Automated classification systems can assist healthcare professionals by improving diagnostic consistency and reducing the time required to identify infected blood smear samples.
+Early and accurate malaria diagnosis remains a significant global health challenge. Automated classification systems can assist healthcare professionals by improving diagnostic consistency, reducing diagnostic time, and increasing access to reliable screening tools.
 
-This project demonstrates how applied machine learning techniques can be leveraged to address real-world healthcare problems and support data-driven decision-making.
+This project demonstrates how applied machine learning techniques can address real-world healthcare problems and support data-driven decision-making.
 
 ---
 
